@@ -1,0 +1,95 @@
+:root {
+  --swiper-theme-color: #d082ef; /* Змініть кольори на ваші потреби */
+  --swiper-preloader-color: var(--swiper-theme-color);
+  --swiper-wrapper-transition-timing-function: initial;
+}
+
+.margin {
+  margin-left: 32px;
+}
+
+.box_stl {
+  position: relative;
+  /* width: 170px;
+  height: 170px; */
+  background-color: #ffb55c;
+  border-radius: 10px;
+}
+
+.box_text {
+  position: absolute;
+  top: 23px;
+  left: 17px;
+  font-weight: 700;
+}
+
+/*  */
+/*  */
+/*  */
+/* .mySwiper {
+  margin-left: 15px;
+} */
+
+.swiper_slide {
+  /* display: flex; */
+  flex-shrink: inherit;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  margin-right: 10px;
+
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+.swiper_slide .box_stl {
+  display: block;
+  width: 100%;
+  width: 170px;
+  height: 170px;
+}
+
+/* @media only screen and (min-width: 769px) { */
+.mySwiper {
+  margin-left: 15px;
+  width: 545px;
+}
+
+/* .swiper_slide:first-child {
+    transition: transform 100ms;
+  } */
+
+/* .swiper_slide:first-child .box_stl {
+    transition: box-shadow 500ms;
+  } */
+
+.swiper_slide.swiper_slide_active {
+  transform: translateX(0%);
+  z-index: 2;
+}
+
+/* .swiper_slide.swiper_slide_active:first-child .box_stl {
+    box-shadow: 0px 32px 80px rgba(0, 0, 0, 0.35);
+  } */
+
+.swiper_slide:nth-child(2) {
+  transition: transform 100ms;
+}
+
+/* .swiper_slide.swiper_slide-next:nth-child(2) {
+    transform: translateX(55%);
+    z-index: 1;
+  } */
+
+/* .swiper[dir='rtl'] .swiper_slide.swiper_slide_active:first-child {
+    transform: translateX(-50%);
+  } */
+
+/* .swiper[dir='rtl'] .swiper_slide.swiper_slide-next:nth-child(2) {
+    transform: translateX(-55%);
+  } */
+/* } */
