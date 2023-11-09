@@ -40,63 +40,63 @@ export const App = () => {
           className={`${css.swiper_slide} ${css.swiper_slide_active}`}
         >
           <div className={css.box_stl}>
-            <span className={css.box_text}>Box</span>
+            <span className={css.box_text}>Box 1</span>
           </div>
         </SwiperSlide>
         <SwiperSlide
           className={`${css.swiper_slide} ${css.swiper_slide_active}`}
         >
           <div className={css.box_stl}>
-            <span className={css.box_text}>Box</span>
+            <span className={css.box_text}>Box 2</span>
           </div>
         </SwiperSlide>
         <SwiperSlide
           className={`${css.swiper_slide} ${css.swiper_slide_active}`}
         >
           <div className={css.box_stl}>
-            <span className={css.box_text}>Box</span>
+            <span className={css.box_text}>Box 3</span>
           </div>
         </SwiperSlide>
         <SwiperSlide
           className={`${css.swiper_slide} ${css.swiper_slide_active}`}
         >
           <div className={css.box_stl}>
-            <span className={css.box_text}>Box</span>
+            <span className={css.box_text}>Box 4</span>
           </div>
         </SwiperSlide>
         <SwiperSlide
           className={`${css.swiper_slide} ${css.swiper_slide_active}`}
         >
           <div className={css.box_stl}>
-            <span className={css.box_text}>Box</span>
+            <span className={css.box_text}>Box 5</span>
           </div>
         </SwiperSlide>
         <SwiperSlide
           className={`${css.swiper_slide} ${css.swiper_slide_active}`}
         >
           <div className={css.box_stl}>
-            <span className={css.box_text}>Box</span>
+            <span className={css.box_text}>Box 6</span>
           </div>
         </SwiperSlide>
         <SwiperSlide
           className={`${css.swiper_slide} ${css.swiper_slide_active}`}
         >
           <div className={css.box_stl}>
-            <span className={css.box_text}>Box</span>
+            <span className={css.box_text}>Box 7</span>
           </div>
         </SwiperSlide>
         <SwiperSlide
           className={`${css.swiper_slide} ${css.swiper_slide_active}`}
         >
           <div className={css.box_stl}>
-            <span className={css.box_text}>Box</span>
+            <span className={css.box_text}>Box 8</span>
           </div>
         </SwiperSlide>
         <SwiperSlide
           className={`${css.swiper_slide} ${css.swiper_slide_active}`}
         >
           <div className={css.box_stl}>
-            <span className={css.box_text}>Box</span>
+            <span className={css.box_text}>Box 9</span>
           </div>
         </SwiperSlide>
       </Swiper>
